@@ -9,21 +9,21 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Application", "2 - Appl
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VictoryRestaurant.Contact.Presentation", "src\VictoryRestaurant.Contact.Presentation\VictoryRestaurant.Contact.Presentation.csproj", "{76EA420A-B4AE-47A0-B44F-B3AEB08B3E30}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VictoryRestaurant.Contact.Application", "VictoryRestaurant.Contact.Application\VictoryRestaurant.Contact.Application.csproj", "{166C0B64-27F5-4296-8CA5-FF2F8BD85814}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Domain", "3 - Domain", "{CED836C8-6A7C-4337-9D0A-EC071CF15535}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VictoryRestaurant.Contact.Domain", "VictoryRestaurant.Contact.Domain\VictoryRestaurant.Contact.Domain.csproj", "{2525AD42-9424-467B-956D-CB543FA06A74}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Infrastructure", "4 - Infrastructure", "{686986CC-505F-41F4-ADCC-4F8F878ED5A6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VictoryRestaurant.Contact.Infrastructure", "VictoryRestaurant.Contact.Infrastructure\VictoryRestaurant.Contact.Infrastructure.csproj", "{B1D8C0B5-677D-4455-8036-5D0D775CEE1B}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - Tests", "5 - Tests", "{730EF789-CCCC-4C0C-8DE6-330AD9982FED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VictoryRestaurant.Contact.Tests", "VictoryRestaurant.Contact.Tests\VictoryRestaurant.Contact.Tests.csproj", "{1747243A-E34C-44A1-82B1-1F2ED5BE43EE}"
-EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{DB964B27-1C23-4D32-ACE1-BF106C5AB680}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VictoryRestaurant.Contact.Application", "src\VictoryRestaurant.Contact.Application\VictoryRestaurant.Contact.Application.csproj", "{B8063D6A-9D84-4474-A873-316356DD5C0F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VictoryRestaurant.Contact.Domain", "src\VictoryRestaurant.Contact.Domain\VictoryRestaurant.Contact.Domain.csproj", "{EFED41BB-D43F-4E63-B292-ADE5F020FA5D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VictoryRestaurant.Contact.Infrastructure", "src\VictoryRestaurant.Contact.Infrastructure\VictoryRestaurant.Contact.Infrastructure.csproj", "{4CE18741-E412-4C35-A340-D2B57979BB8E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VictoryRestaurant.Contact.Tests", "src\VictoryRestaurant.Contact.Tests\VictoryRestaurant.Contact.Tests.csproj", "{9CE4ADD5-46DC-4D5A-9790-BC585C3D6C64}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -55,16 +55,32 @@ Global
 		{DB964B27-1C23-4D32-ACE1-BF106C5AB680}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DB964B27-1C23-4D32-ACE1-BF106C5AB680}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DB964B27-1C23-4D32-ACE1-BF106C5AB680}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8063D6A-9D84-4474-A873-316356DD5C0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8063D6A-9D84-4474-A873-316356DD5C0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8063D6A-9D84-4474-A873-316356DD5C0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8063D6A-9D84-4474-A873-316356DD5C0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFED41BB-D43F-4E63-B292-ADE5F020FA5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFED41BB-D43F-4E63-B292-ADE5F020FA5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFED41BB-D43F-4E63-B292-ADE5F020FA5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFED41BB-D43F-4E63-B292-ADE5F020FA5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CE18741-E412-4C35-A340-D2B57979BB8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CE18741-E412-4C35-A340-D2B57979BB8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CE18741-E412-4C35-A340-D2B57979BB8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CE18741-E412-4C35-A340-D2B57979BB8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CE4ADD5-46DC-4D5A-9790-BC585C3D6C64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CE4ADD5-46DC-4D5A-9790-BC585C3D6C64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CE4ADD5-46DC-4D5A-9790-BC585C3D6C64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CE4ADD5-46DC-4D5A-9790-BC585C3D6C64}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{76EA420A-B4AE-47A0-B44F-B3AEB08B3E30} = {A2ACB454-1560-4544-84DD-34CD401E6CFA}
-		{166C0B64-27F5-4296-8CA5-FF2F8BD85814} = {E12E7E7F-6AA5-467C-8D92-1AD93484A6CE}
-		{2525AD42-9424-467B-956D-CB543FA06A74} = {CED836C8-6A7C-4337-9D0A-EC071CF15535}
-		{B1D8C0B5-677D-4455-8036-5D0D775CEE1B} = {686986CC-505F-41F4-ADCC-4F8F878ED5A6}
-		{1747243A-E34C-44A1-82B1-1F2ED5BE43EE} = {730EF789-CCCC-4C0C-8DE6-330AD9982FED}
+		{B8063D6A-9D84-4474-A873-316356DD5C0F} = {E12E7E7F-6AA5-467C-8D92-1AD93484A6CE}
+		{EFED41BB-D43F-4E63-B292-ADE5F020FA5D} = {CED836C8-6A7C-4337-9D0A-EC071CF15535}
+		{4CE18741-E412-4C35-A340-D2B57979BB8E} = {686986CC-505F-41F4-ADCC-4F8F878ED5A6}
+		{9CE4ADD5-46DC-4D5A-9790-BC585C3D6C64} = {730EF789-CCCC-4C0C-8DE6-330AD9982FED}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6925FCA9-833F-49A3-8C4D-8A186CDBC26C}
