@@ -23,6 +23,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - Tests", "5 - Tests", "{
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VictoryRestaurant.Contact.Tests", "VictoryRestaurant.Contact.Tests\VictoryRestaurant.Contact.Tests.csproj", "{1747243A-E34C-44A1-82B1-1F2ED5BE43EE}"
 EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{DB964B27-1C23-4D32-ACE1-BF106C5AB680}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -49,6 +51,10 @@ Global
 		{1747243A-E34C-44A1-82B1-1F2ED5BE43EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1747243A-E34C-44A1-82B1-1F2ED5BE43EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1747243A-E34C-44A1-82B1-1F2ED5BE43EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB964B27-1C23-4D32-ACE1-BF106C5AB680}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB964B27-1C23-4D32-ACE1-BF106C5AB680}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB964B27-1C23-4D32-ACE1-BF106C5AB680}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB964B27-1C23-4D32-ACE1-BF106C5AB680}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
