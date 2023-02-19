@@ -9,7 +9,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Application", "2 - Appl
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VictoryRestaurant.Contact.Presentation", "src\VictoryRestaurant.Contact.Presentation\VictoryRestaurant.Contact.Presentation.csproj", "{76EA420A-B4AE-47A0-B44F-B3AEB08B3E30}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VictoryRestaurant.Contact.Application", "VictoryRestaurant.Contact.Application\VictoryRestaurant.Contact.Application.csproj", "{166C0B64-27F5-4296-8CA5-FF2F8BD85814}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VictoryRestaurant.Contact.Application", "VictoryRestaurant.Contact.Application\VictoryRestaurant.Contact.Application.csproj", "{166C0B64-27F5-4296-8CA5-FF2F8BD85814}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Domain", "3 - Domain", "{CED836C8-6A7C-4337-9D0A-EC071CF15535}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VictoryRestaurant.Contact.Domain", "VictoryRestaurant.Contact.Domain\VictoryRestaurant.Contact.Domain.csproj", "{2525AD42-9424-467B-956D-CB543FA06A74}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Infrastructure", "4 - Infrastructure", "{686986CC-505F-41F4-ADCC-4F8F878ED5A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VictoryRestaurant.Contact.Infrastructure", "VictoryRestaurant.Contact.Infrastructure\VictoryRestaurant.Contact.Infrastructure.csproj", "{B1D8C0B5-677D-4455-8036-5D0D775CEE1B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - Tests", "5 - Tests", "{730EF789-CCCC-4C0C-8DE6-330AD9982FED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VictoryRestaurant.Contact.Tests", "VictoryRestaurant.Contact.Tests\VictoryRestaurant.Contact.Tests.csproj", "{1747243A-E34C-44A1-82B1-1F2ED5BE43EE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,6 +37,18 @@ Global
 		{166C0B64-27F5-4296-8CA5-FF2F8BD85814}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{166C0B64-27F5-4296-8CA5-FF2F8BD85814}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{166C0B64-27F5-4296-8CA5-FF2F8BD85814}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2525AD42-9424-467B-956D-CB543FA06A74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2525AD42-9424-467B-956D-CB543FA06A74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2525AD42-9424-467B-956D-CB543FA06A74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2525AD42-9424-467B-956D-CB543FA06A74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1D8C0B5-677D-4455-8036-5D0D775CEE1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1D8C0B5-677D-4455-8036-5D0D775CEE1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1D8C0B5-677D-4455-8036-5D0D775CEE1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1D8C0B5-677D-4455-8036-5D0D775CEE1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1747243A-E34C-44A1-82B1-1F2ED5BE43EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1747243A-E34C-44A1-82B1-1F2ED5BE43EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1747243A-E34C-44A1-82B1-1F2ED5BE43EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1747243A-E34C-44A1-82B1-1F2ED5BE43EE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,6 +56,9 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{76EA420A-B4AE-47A0-B44F-B3AEB08B3E30} = {A2ACB454-1560-4544-84DD-34CD401E6CFA}
 		{166C0B64-27F5-4296-8CA5-FF2F8BD85814} = {E12E7E7F-6AA5-467C-8D92-1AD93484A6CE}
+		{2525AD42-9424-467B-956D-CB543FA06A74} = {CED836C8-6A7C-4337-9D0A-EC071CF15535}
+		{B1D8C0B5-677D-4455-8036-5D0D775CEE1B} = {686986CC-505F-41F4-ADCC-4F8F878ED5A6}
+		{1747243A-E34C-44A1-82B1-1F2ED5BE43EE} = {730EF789-CCCC-4C0C-8DE6-330AD9982FED}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6925FCA9-833F-49A3-8C4D-8A186CDBC26C}
